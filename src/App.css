@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(#000, #202020);;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qrCode{
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.input {
+    height: 38px;
+    border-radius: 8px;
+    max-width: 300px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #b6b6b6;
+}
+
+.btnDownload {
+    background-color: #0094ff;
+    padding: 1em;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btnDownload:hover{
+    background-color: #31b74e;
+    transition: 1s;
+    cursor: pointer;
+}
